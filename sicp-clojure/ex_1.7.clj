@@ -17,9 +17,10 @@
 		(defn improve []
 			(average guess (/ x guess))
 		)
-
+		
+		; considers current guess and an improvement (consecutive value)
 		(defn good-enough? []
-			(< (abs (- (square guess) x)) 0.001)
+			(< (abs (- (improve) guess)) 0.001)
 		)
 
 		(if (good-enough?)
@@ -32,3 +33,4 @@
 )
 
 (println (sqrt 2.0))
+(println (sqrt 0.0001))
