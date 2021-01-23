@@ -6,6 +6,7 @@ In this repo I'll share my joy of reading the book Structure and Interpretation 
 ## TODO
 - how to write unit-tests in Clojure?
 - draw 3D by generating SVG XML and open it in the browser
+- Huffman coding
 
 ## References
 - https://www.braveclojure.com/organization/
